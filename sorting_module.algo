@@ -1,0 +1,24 @@
+ALGORITHM serch_insertion
+VAR
+    T : ARRAY_OF float [50];
+BEGIN
+    write ("lire le tableau")
+
+    lecture (T);
+
+    for (i=2;i<=tab.lenght;i++)
+{
+    j=i;temp=T[i];
+while (T[j]>temp)
+{
+    T[j]=T[j-1];
+j--;
+}
+T[j]=temp;
+
+
+}
+
+
+
+END
